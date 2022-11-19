@@ -7,14 +7,58 @@ audio{
     position: absolute;
     right: 0;
     top: 0;
+    width: 120px;
 }
 
 body{
     background-color: #51e0e0;
 }
 
-.header-content{
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+header{
     background-color: #3eadad;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.img-logo{
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.header ul li, a {
+    display: inline;
+    /* margin: 0px 10px; */
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    padding: 10px;
+    text-decoration: none;
+}
+a:visited, a:link {
+    color: #16161f;
+}
+
+.header ul {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.header ul li:hover {
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #16161f;
+    transition: ease-in 0.2s;
 }
 
 
