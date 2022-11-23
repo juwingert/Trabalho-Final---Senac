@@ -28,26 +28,6 @@ body{
     justify-content: space-around;
 }
 
-.main2 {
-    background-color: brown;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-image: url('../img/rio-sucuri.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box-main{
-    width: 100vw;
-    height: 80vh;
-    background-color: rgba(255, 255, 255, 0.4);
-    
-}
-
-
-
 .nome {
     width: 15%;
     font-family: 'Roboto', sans-serif;
@@ -58,21 +38,27 @@ body{
 }
 
 .logo2 {
-    /* background-color: red; */
-    width: 10%;
+    width: 3%;
     height: 100%;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
+.header-mid{
+    display: flex;
+    margin: 10px;
+}
+
+
 .logo{
-    width: 220px;
-    height: 100%;
-   
+    width: 190px;
+  
 }
 
 .links{
-    width: 60%;
+    margin-left: 150px;
 }
 
 .links ul li, a {
@@ -80,7 +66,7 @@ body{
     margin: 1px 10px;
     padding: 10px;
     font-family: 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 150px;
     
 }
@@ -100,6 +86,116 @@ a:visited, a:link {
     cursor: pointer;
     box-shadow: 5px 5px 10px #16161f;
     transition: ease-in 0.1s;
+}
+
+.main2 {
+    /* background-color: brown; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('../img/rio-sucuri.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-main{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.text-main{
+    color: black;
+    /* font-family: 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif; */
+    font-size: 26px;
+    font-weight:500;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    grid-template-rows: 30vh 30vh 20vh;
+    font-family: 'Comfortaa', cursive; 
+    font-weight: 700;
+    line-height: 35px;
+    
+}
+
+.text-first{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 20px;
+    margin-left: 25px;
+    
+}
+
+.text-second{
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 20px;
+    margin-right: 25px;
+    font-style: italic;
+
+
+}
+
+.text-third{
+    text-align: justify;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+    margin-top: 80px;
+    margin-right: 25px;
+}
+
+.main3 {
+    background-color: brown;
+    height: 80vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-around;
+    background-image: url('../img/rio-sucuri.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.box-main3{
+    width: 100vw;
+    height: 30vh;
+    background-color: #406161;
+}
+
+.main4 {
+    background-color:blueviolet;
+    height: 80vh;
+    display: flex;
+}
+
+.box-main4{
+    width: 100vw;
+    height: 30vh;
+    background-color: aquamarine;
+}
+
+.formulario{
+    width: 100vw;
+    height: 60vh;
+    background-color:bisque;
+    font-family: 'Comfortaa', cursive; 
+}
+
+.box-main-formulario{
+    padding: 30px;
+    border-radius: 25px;
+    color: black;
+    /* height: 80vh; */
+    background-color: transparent;
+    
+}
+
+h1 {
+    text-align: center;
+    
 }
 
 
