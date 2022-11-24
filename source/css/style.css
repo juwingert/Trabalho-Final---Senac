@@ -11,7 +11,7 @@ audio{
 }
 
 body{
-    background-color: #51e0e0;
+    background-color: #00f165;
 }
 
 
@@ -107,7 +107,6 @@ a:visited, a:link {
 
 .text-main{
     color: black;
-    /* font-family: 'Open Sans', Verdana, Geneva, 'DejaVu Sans', sans-serif; */
     font-size: 26px;
     font-weight:500;
     display: grid;
@@ -152,11 +151,6 @@ a:visited, a:link {
     background-color: brown;
     height: 80vh;
     display: flex;
-    /* align-items: center;
-    justify-content: space-around;
-    background-image: url('../img/rio-sucuri.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 .box-main3{
@@ -174,28 +168,112 @@ a:visited, a:link {
 .box-main4{
     width: 100vw;
     height: 30vh;
-    background-color: aquamarine;
+    background-color:#ddfcfc;
 }
 
 .formulario{
     width: 100vw;
     height: 60vh;
-    background-color:bisque;
     font-family: 'Comfortaa', cursive; 
+    margin-bottom: 80px;
 }
 
 .box-main-formulario{
     padding: 30px;
-    border-radius: 25px;
     color: black;
-    /* height: 80vh; */
-    background-color: transparent;
-    
+    background-color: #ddfcfc;
+    flex-direction: column;
 }
 
 h1 {
     text-align: center;
-    
 }
 
+.form-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form{
+    width: 80vw;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Comfortaa', cursive; 
+
+}
+
+.description-form {
+    display: flex;
+    justify-content: center;
+}
+
+.input-form {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.input-form1{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.input-form2{
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive; 
+       
+}
+
+.label-form{
+    margin-left: 10px;
+}
+
+.label-form1{
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.bottom-form{
+    height: 30px;
+    width: 70px;
+    font-size: 14px;
+}
+
+.main5 {
+    background-color:rgb(43, 159, 226);
+    height: 80vh;
+    display: flex;
+    
+        
+}
+
+.box-main5{
+    width: 100vw;
+    height: 30vh;
+    background-image: url(../img/contato1.jpeg), linear-gradient(0deg, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+       
+}
+
+.main5-contain{
+    font-size: 60px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 100px;
+    
+}
 
